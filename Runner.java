@@ -31,29 +31,40 @@ public class Runner {
               System.out.println(LastNonRepeating.findLastNonRepeating(str4));
               break;
           case 5:
-              Scanner sc= new Scanner(System.in);
               System.out.println("Enter the String: ");
-              String str5 = sc.nextLine();
+              in.nextLine();
+              String str5 = in.nextLine();
               System.out.println(CaseConvention.convertCase(str5));
               break;
           case 6:
-              Scanner sc1= new Scanner(System.in);
               System.out.println("Enter the String: ");
-              String str6 = sc1.nextLine();
+              in.nextLine();
+              String str6 = in.nextLine();
               ConvertStringAccording.convertString(str6);
               break;
           case 7:
+              System.out.println("Enter the String: ");
+              String str7 = in.next();
+              System.out.println(RomanToDecimal.convertToDecimal(str7));
               break;
           case 8:
               System.out.println("Enter the String: ");
               String str8 = in.next();
-              System.out.println(RomanToDecimal.convertToDecimal(str8));
+              System.out.println(RemoveDuplicates.removeDuplicateSort(str8));
               break;
           case 9:
-              System.out.println("Enter the String: ");
-              String str9 = in.next();
-              System.out.println(RemoveDuplicates.removeDuplicateSort(str9));
+              System.out.println("Enter the pattern String");
+              String pattern = in.nextLine();
+              System.out.println("Enter the String");
+              String str9 = in.nextLine();
+              System.out.println(PatternCheck.wordPattern(pattern, str9));
               break;
+          case 10:
+              System.out.println("Enter the number");
+              int number=in.nextInt();
+              System.out.println(DecimalToRoman.convertToRoman(number));
+              break;
+
           default :
               System.out.println("Invalid");
               break;
