@@ -66,22 +66,22 @@ public class Runner {
               break;
           case 11:
                System.out.println("Enter the String");
-               String str=in.next();
+               String str11=in.next();
                System.out.println("Enter the number");
                int k=in.nextInt();
-               System.out.println(RemoveConsecutiveIdenticalChar.removeDup(str,k));
+               System.out.println(RemoveConsecutiveIdenticalChar.removeDup(str11,k));
                break;
           case 12:
               System.out.println("Enter the String");
               String str1=in.next();
               System.out.println("Enter the second String ");
-              String str2=in.next();
-              System.out.println(MinimumOperationToConvert.editDis(str1,str2,str1.length(),str2.length()));
+              String str12=in.next();
+              System.out.println(MinimumOperationToConvert.editDis(str1,str12,str1.length(),str12.length()));
               break;
           case 13:
                System.out.println("Enter the String");
-               String str=in.nextLine();
-               System.out.println(LastWord.printLastWord(str));
+               String str13=in.nextLine();
+               System.out.println(LastWord.printLastWord(str13));
                break;
           default :
               System.out.println("Invalid");
