@@ -64,7 +64,25 @@ public class Runner {
               int number=in.nextInt();
               System.out.println(DecimalToRoman.convertToRoman(number));
               break;
-
+          case 11:
+               System.out.println("Enter the String");
+               String str=in.next();
+               System.out.println("Enter the number");
+               int k=in.nextInt();
+               System.out.println(RemoveConsecutiveIdenticalChar.removeDup(str,k));
+               break;
+          case 12:
+              System.out.println("Enter the String");
+              String str1=in.next();
+              System.out.println("Enter the second String ");
+              String str2=in.next();
+              System.out.println(MinimumOperationToConvert.editDis(str1,str2,str1.length(),str2.length()));
+              break;
+          case 13:
+               System.out.println("Enter the String");
+               String str=in.nextLine();
+               System.out.println(LastWord.printLastWord(str));
+               break;
           default :
               System.out.println("Invalid");
               break;
