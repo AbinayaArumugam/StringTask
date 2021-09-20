@@ -83,7 +83,7 @@ public class Runner {
                String str13=in.nextLine();
                System.out.println(LastWord.printLastWord(str13));
                break;
-               case 14:
+          case 14:
               System.out.println("Enter the String");
               in.nextLine();
               String str14=in.nextLine();
