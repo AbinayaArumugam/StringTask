@@ -128,6 +128,11 @@ public class Runner {
               String str21=in.next();
               System.out.println(ReverseVowel.reverseVowel(str21));
               break;
+          case 22:
+              System.out.println("Enter the number");
+              long number22=in.nextLong();
+              System.out.println(NumberToWord.convertToWord(number22));
+              break;
           default :
               System.out.println("Invalid");
               break;
