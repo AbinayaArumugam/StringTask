@@ -10,7 +10,7 @@ public interface NumberToWord {
         out+=numToWord((int) ((number/100000)%100),"Lakh ");
         out+=numToWord((int)((number/1000)%100),"Thousand ");
         out+=numToWord((int)((number/100)%10),"Hundred ");
-        if(number>100&&number%100<0){
+        if(number>100&&number%100>0){
             out+="And ";
         }
         out+=numToWord((int)(number%100)," ");
